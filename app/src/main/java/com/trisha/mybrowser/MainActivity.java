@@ -11,11 +11,16 @@ import android.webkit.WebViewClient;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     WebView webView;
     ImageView iv_exit, iv_home, iv_forward, iv_back, iv_refersh;
-ProgressBar progressBar;
+    ProgressBar progressBar;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,8 +41,6 @@ ProgressBar progressBar;
         setupWebView();
         //setupTxtUrl();
     }
-
-
 
 
     private void hideKeyboard() {

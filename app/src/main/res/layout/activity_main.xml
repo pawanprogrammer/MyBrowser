@@ -122,5 +122,6 @@
         app:layout_constraintTop_toTopOf="parent">
 
     </WebView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
